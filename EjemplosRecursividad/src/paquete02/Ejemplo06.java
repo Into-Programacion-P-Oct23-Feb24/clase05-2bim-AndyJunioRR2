@@ -20,21 +20,24 @@ public class Ejemplo06 {
             System.out.printf("El valor es: %d\n", 
                     obtenerSuma(valor1[i], valor2[i]));
         }
-        
+        // aqui se obtiene los valores de las posiciones de los 2 arreglos en la
+        // posción 0
         for (int i = 0; i < valor1.length; i++) {
             int num1 = valor1[i];
             int num2 = valor2[i];
             System.out.printf("El valor es: %d\n", 
                     obtenerSuma(num1, num2));
         }
-        
+        // en este for en cambio a los arreglos valor 1 y valor 2 les estamos
+        // dando una nueva variable a cada uno 
         for (int i = 0; i < valor1.length; i++) {
             int num1 = valor1[i];
             int num2 = valor2[i];
             int suma = obtenerSuma(num1, num2); 
             System.out.printf("El valor es: %d\n", suma);
         }
-        
+        // en este for le estamos dando a obtener suma una nueva variable que se
+        // llama suma
         
 
     }

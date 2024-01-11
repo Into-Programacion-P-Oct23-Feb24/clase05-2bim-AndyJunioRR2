@@ -10,4 +10,12 @@ package paquete03;
  */
 public class Clase01 {
     
+    public static void main(String[] args) {
+        
+    }
+    public static String[][] obtenerNumeros(){
+        String[][] cadena = {{"LOJA", "CUENCA","QUITO"},
+            {"GUAYAQUIL","ZAMORA","MACHALA"}};
+        return cadena;
+    }
 }
